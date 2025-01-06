@@ -1,0 +1,45 @@
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    body {
+        background: linear-gradient(to right, #fffebe, #7ed957);
+        height: 100vh;
+        margin: 0;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .menu {
+        background: #ffff;
+        color: black;
+        padding: -15px;
+        padding-right: 10px;
+        text-align: center;
+        
+      }
+
+      .login-box {
+        max-width: 450px;
+    }
+
+    .bg-light-green {
+        background: white;
+        width: 70%;
+        max-width: 600px;
+    }
+
+    .shadow {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-box {
+        width: 450px;  /* Aumenta a largura fixa */
+        max-width: 80%;  /* Evita que ultrapasse 90% da tela */
+
+    }
